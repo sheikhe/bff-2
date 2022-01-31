@@ -5,7 +5,7 @@ $ pkg install python <br>
 $ pkg install git <br>
 $ git clone https://github.com/Mark-Zuck/bff-2 <br>
 $ cd bff-2 <br>
-$ python2 bff-2.py
+$ python bff-2.py
 #
 #### Info Menu :<br>
 <img src="https://github.com/Mark-Zuck/bff/blob/main/ajg/IMG_20220112_173706.jpg" width="640" title="Menu" alt="Menu">
