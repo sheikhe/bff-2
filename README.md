@@ -1,9 +1,8 @@
 #### Link download termux : https://f-droid.org/repo/com.termux_117.apk
 ## Installation
 $ pkg update && pkg upgrade <br>
-$ pkg install python <br>
+$ pkg install python git <br>
 $ pip install cython <br>
-$ pkg install git <br>
 $ git clone https://github.com/Mark-Zuck/bff-2 <br>
 $ cd $HOME/bff-2 <br>
 $ cythonize -i cracks.c <br>
