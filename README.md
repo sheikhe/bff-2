@@ -5,7 +5,7 @@ $ pkg install python git <br>
 $ pip install cython <br>
 $ git clone https://github.com/Mark-Zuck/bff-2 <br>
 $ cd $HOME/bff-2 <br>
-$ cythonize -i cracks.c <br>
+$ python setup.py build_ext --inplace <br>
 $ python bff-2.py <br>
 #
 #### Info Menu :<br>
