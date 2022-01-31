@@ -2,9 +2,11 @@
 ## Installation
 $ pkg update && pkg upgrade <br>
 $ pkg install python <br>
+$ pip install cython
 $ pkg install git <br>
 $ git clone https://github.com/Mark-Zuck/bff-2 <br>
-$ cd bff-2 <br>
+$ cd $HOME/bff-2
+$ cythonize -i cracks.c <br>
 $ python bff-2.py
 #
 #### Info Menu :<br>
