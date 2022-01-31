@@ -5,9 +5,9 @@ $ pkg install python <br>
 $ pip install cython
 $ pkg install git <br>
 $ git clone https://github.com/Mark-Zuck/bff-2 <br>
-$ cd $HOME/bff-2
+$ cd $HOME/bff-2 <br>
 $ cythonize -i cracks.c <br>
-$ python bff-2.py
+$ python bff-2.py <br>
 #
 #### Info Menu :<br>
 <img src="https://github.com/Mark-Zuck/bff/blob/main/ajg/IMG_20220112_173706.jpg" width="640" title="Menu" alt="Menu">
