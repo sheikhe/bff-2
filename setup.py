@@ -1,9 +1,16 @@
-import os
+import os,sys
 from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Distutils import build_ext
 
-ext = Extension("cracks", sources=["cracks.c"])
+try:
+        os.system("rm -rf *.so")
+except:
+        pass
+
+ext = Extension(
+        "cracks",sources=["cracks.c"]
+)
 
 setup(
 	ext_modules=[ext],
